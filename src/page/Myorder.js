@@ -7,7 +7,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem('userEmail'));
-    await fetch('https://foodbackend-i2fd.onrender.com/api/myorder', {
+    await fetch('https://foodbackend-2hvh.onrender.com/api/myorder', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
