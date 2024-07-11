@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link  , useNavigate} from "react-router-dom";
 import { useState } from "react";
 
 export default function Signup() {
      const [user , setuser] = useState({name:"" , password:"",email:"",location:""})
 
-
+           const nav = useNavigate();
 
       const handleSubmit = async (e)=>{
 
@@ -32,8 +32,13 @@ export default function Signup() {
          console.log(json);
 
          if(!json.success){
-            alert("Enter Valid Credentials")
+            alert("Email Already in Use or Password size should be greater than 5")
          }
+
+         
+         else{
+          nav('/login')
+         }  
 
        
 
