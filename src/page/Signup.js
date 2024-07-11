@@ -15,7 +15,7 @@ export default function Signup() {
 
            
         
-         const response = await fetch("https://foodbackend-i2fd.onrender.com/api/createuser",{
+         const response = await fetch("https://foodbackend-2hvh.onrender.com/api/createuser",{
          method:'POST',
          headers:{
             'Content-Type':'application/json'
