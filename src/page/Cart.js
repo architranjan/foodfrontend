@@ -17,7 +17,7 @@ export default function Cart() {
     const hadleCheckout = async()=>{
         let userEmail = localStorage.getItem('userEmail')
 
-        let response = await fetch("https://foodbackend-i2fd.onrender.com/api/orderdata",{
+        let response = await fetch("https://foodbackend-2hvh.onrender.com/api/orderdata",{
             method:'POST',
 
             headers:{
