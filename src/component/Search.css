@@ -1,0 +1,19 @@
+
+.class-form{
+  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+  .search-input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .sbtn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
