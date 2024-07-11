@@ -19,7 +19,7 @@ export default function Home() {
   
   
   const load = async ()=>{
-    let response = await fetch("https://foodbackend-i2fd.onrender.com/api/display",{
+    let response = await fetch("https://foodbackend-2hvh.onrender.com/api/display",{
       method:"POST",
       headers:{
         'Content-Type':'application/json'
