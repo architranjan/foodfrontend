@@ -16,7 +16,7 @@ export default function Login() {
 
          
       
-       const response = await fetch("https://foodbackend-i2fd.onrender.com/api/login",{
+       const response = await fetch("https://foodbackend-2hvh.onrender.com/api/login",{
        method:'POST',
        headers:{
           'Content-Type':'application/json'
