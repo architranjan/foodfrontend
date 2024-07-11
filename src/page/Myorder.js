@@ -31,7 +31,7 @@ export default function MyOrder() {
       <Navbar />
       <div className="container">
         <div className="row">
-          {orderData.orderData && orderData.orderData.order_data ? (
+          {localStorage.getItem('authToken') && orderData.orderData && orderData.orderData.order_data ? (
             orderData.orderData.order_data.slice(0).reverse().map((item, index) => (
               item.map((arrayData, idx) => (
                 <div key={`${index}-${idx}`}>
